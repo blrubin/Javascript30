@@ -1,0 +1,65 @@
+html {
+  font-size: 10px;
+  background: #222E67; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#222E67, #EAADC5);
+    background: -o-linear-gradient(#222E67, #EAADC5);
+    background: -moz-linear-gradient(#222E67, #EAADC5);
+    background: linear-gradient(#222E67, #EAADC5);
+    background: linear-gradient(#24385F, #705A7B);
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: "brandon grotesque";
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 50px 0;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #8692d6;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .15s ease;
+  width: 10rem;
+  text-align: center;
+  color: #4b496d;
+  background: white;
+  box-shadow: 0 0.5rem .5rem rgba(16, 31, 74, 0.5);
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0.5rem 1.5rem rgba(16, 31, 74, 0.65);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  font-family: "brandon grotesque";
+  font-weight: 900;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: 900;

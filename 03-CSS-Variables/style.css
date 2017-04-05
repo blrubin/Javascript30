@@ -1,0 +1,53 @@
+:root {
+  --body: #F2F2F2;
+  --wing: #FF7058;
+  --size: 250px;
+  --rotate:0deg;
+}
+
+svg {
+  height: var(--size);
+  width: var(--size);
+  transform: rotate(var(--rotate))
+}
+
+.body {
+  fill: var(--body);
+}
+
+.wing {
+  fill: var(--wing);
+}
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+
+body {
+  color: #2d2d2d;
+  font-family: 'ntr', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  flex-wrap: wrap;
+}
+input {
+  width:100px;
+}
